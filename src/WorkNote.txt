@@ -1,0 +1,33 @@
+
+
+------> Hierarchy
+
+class ConcentrationOfOxigen {
+    class DataPrinter{}
+
+    class Materials {
+    }
+
+    class Oxide {
+    }
+
+    class KineticModel {
+        //do time iteration(j)
+
+        class SolveDiffusionODE {
+            //To process for one dt and call all necessary calculation methods (from ProfileUtilites)
+
+            class ProfileUtilites {
+                //All methods to do Diffusion Calculations
+            }
+        }
+    }
+
+}
+
+------> data Structures:
+
+1. In KineticModel: Concentration, the [oxygen] profile;
+
+
+
